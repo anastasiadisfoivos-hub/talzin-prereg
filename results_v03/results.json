@@ -1,0 +1,458 @@
+{
+ "prereg": "PREREG_FILTER_v03.md",
+ "fast": false,
+ "B": 2000,
+ "K_FAKE": 20,
+ "sha_plan": "dc5da1fd63186383b424aaa8111e6102482d80b89cec0675152a75beba86f4d2",
+ "sha_code": "03f11ce906c091240ad6d4726d47f86ac3bee870b8e654bf09267b2921b09c70",
+ "H1": {
+  "n": 1349,
+  "did": 0.0327725351943142,
+  "ci": [
+   0.01601304666337076,
+   0.04921480366414174
+  ],
+  "ci_month": [
+   0.02324685876228347,
+   0.042468133722450944
+  ],
+  "ci_twoway": [
+   0.01601304666337076,
+   0.04921480366414174
+  ],
+  "lift_adj": 1.2571109098660218,
+  "lift_adj_ci": [
+   1.1155863395177292,
+   1.385449185960045
+  ],
+  "extra_neighbour_jumps_per_jump": 0.32758974296765175,
+  "pass": true,
+  "mean_decile_neighbours": 3.9538851225508456,
+  "mean_decile_focal": 5.283914010378058
+ },
+ "counts": {
+  "filtered_test": 1718,
+  "evaluated": 1349,
+  "failing_test": 78168,
+  "underpowered": false
+ },
+ "H1_global_fake_dates": {
+  "n": 1597,
+  "did": 0.03269070727852821,
+  "ci": [
+   0.018897546086185303,
+   0.04676176780483432
+  ],
+  "ci_month": [
+   0.02436224617421279,
+   0.04022412279977036
+  ],
+  "ci_twoway": [
+   0.018897546086185303,
+   0.04676176780483432
+  ],
+  "lift_adj": 1.2558055817778835,
+  "lift_adj_ci": [
+   1.150812467763719,
+   1.3714261482689964
+  ],
+  "extra_neighbour_jumps_per_jump": 0.3259987476518473
+ },
+ "before_window": {
+  "n": 1349,
+  "did": 0.02889029806478118,
+  "ci": [
+   0.014228165555874597,
+   0.04577254999665885
+  ],
+  "ci_month": [
+   0.01974400592384536,
+   0.037408939948331076
+  ],
+  "ci_twoway": [
+   0.014228165555874597,
+   0.04577254999665885
+  ],
+  "lift_adj": 1.2330785473992352,
+  "lift_adj_ci": [
+   1.112229726087167,
+   1.3763309014470424
+  ],
+  "extra_neighbour_jumps_per_jump": 0.2897069271337449
+ },
+ "H2": {
+  "what": "filtered jumps vs same-size jumps that failed only the edit-burst check",
+  "n_filtered_common": 1349,
+  "n_filtered_dropped": 0,
+  "n_fail": 17891,
+  "diff": 0.002443407814522902,
+  "ci": [
+   -0.01915458312769695,
+   0.024974270005245575
+  ],
+  "pass": false
+ },
+ "H3": {
+  "nA": 137,
+  "nB": 221,
+  "share_diff": 0.000714358871705969,
+  "ci": [
+   -0.105558969895313,
+   0.10619112020670442
+  ],
+  "perm_p": 0.47626186906546725,
+  "pass": false
+ },
+ "H4_maponly": {
+  "n": 1345,
+  "did": 0.030300873854879635,
+  "ci": [
+   0.007090551074804306,
+   0.05290780418194316
+  ],
+  "ci_month": [
+   0.016998598567396456,
+   0.04351824550567968
+  ],
+  "ci_twoway": [
+   0.007090551074804306,
+   0.05290780418194316
+  ],
+  "lift_adj": 1.2400142661225002,
+  "lift_adj_ci": [
+   1.091880090311259,
+   1.391045124765929
+  ],
+  "extra_neighbour_jumps_per_jump": 0.24743010608651617,
+  "edges_dropped_no_link_data": 0,
+  "pass": true
+ },
+ "linkmap": {
+  "n": 1271,
+  "did": 0.027788700768999624,
+  "ci": [
+   0.01071346670042295,
+   0.04522889278917532
+  ],
+  "ci_month": [
+   0.01724272621086538,
+   0.03907888978329467
+  ],
+  "ci_twoway": [
+   0.01071346670042295,
+   0.04522889278917532
+  ],
+  "lift_adj": 1.1854779373607325,
+  "lift_adj_ci": [
+   1.0678441763639883,
+   1.304690093797497
+  ],
+  "extra_neighbour_jumps_per_jump": 0.3083853834785185
+ },
+ "share_map_edges_linked": 0.09512726657216004,
+ "H5": {
+  "did_i_leads": 0.03149875863006682,
+  "did_j_leads": 0.030397964171552543,
+  "diff": 0.0011007944585142773,
+  "ci": [
+   -0.035158072399491,
+   0.03799462516627917
+  ],
+  "nA": 1112,
+  "nB": 1163,
+  "pass": false
+ },
+ "traps": {
+  "T1p": {
+   "n": 1453,
+   "did": 0.0016051447917376856,
+   "ci": [
+    -0.0022419317973188103,
+    0.005636908059816444
+   ],
+   "ci_month": [
+    -0.0011406904072032052,
+    0.004450469648227455
+   ],
+   "ci_twoway": [
+    -0.0022419317973188103,
+    0.005636908059816444
+   ],
+   "lift_adj": NaN,
+   "lift_adj_ci": [
+    NaN,
+    NaN
+   ],
+   "extra_neighbour_jumps_per_jump": null
+  },
+  "T3": {
+   "n": 1283,
+   "did": 0.01604086556537337,
+   "ci": [
+    0.0020474978077654536,
+    0.02882955805036462
+   ],
+   "ci_month": [
+    0.00786317669879042,
+    0.023564722814255118
+   ],
+   "ci_twoway": [
+    0.0020474978077654536,
+    0.02882955805036462
+   ],
+   "lift_adj": 1.1255181455940877,
+   "lift_adj_ci": [
+    1.0274880234667705,
+    1.227486792410337
+   ],
+   "extra_neighbour_jumps_per_jump": 0.15905440779714758
+  },
+  "T4": {
+   "n": 1352,
+   "did": -0.008965379032352387,
+   "ci": [
+    -0.022398251504093157,
+    0.003957310935193832
+   ],
+   "ci_month": [
+    -0.016617292228599048,
+    -0.0017199267981953415
+   ],
+   "ci_twoway": [
+    -0.022398251504093157,
+    0.003957310935193832
+   ],
+   "lift_adj": 0.9367156937405954,
+   "lift_adj_ci": [
+    0.8462537593183709,
+    1.023438003033939
+   ],
+   "extra_neighbour_jumps_per_jump": -0.09096092602969806
+  }
+ },
+ "trap_fired": {
+  "T1p": false,
+  "T3": true,
+  "T4": false
+ },
+ "result_trustworthy": false,
+ "P1": {
+  "planted": 437,
+  "expected_rise": 0.03256998129125631,
+  "observed_rise": 0.03259139546601938,
+  "note": "a planted jump can count for several focal jumps that share the neighbour, so the rise may exceed the expected value",
+  "pass_": true
+ },
+ "S1_from_2020_05": {
+  "n": 1244,
+  "did": 0.030270091923701087,
+  "ci": [
+   0.013198231359381514,
+   0.048237022766562034
+  ],
+  "ci_month": [
+   0.020213631376177103,
+   0.0410076187467217
+  ],
+  "ci_twoway": [
+   0.013198231359381514,
+   0.048237022766562034
+  ],
+  "lift_adj": 1.2339881174210476,
+  "lift_adj_ci": [
+   1.1054071371035945,
+   1.3901826183862085
+  ],
+  "extra_neighbour_jumps_per_jump": 0.30465842919705055
+ },
+ "S1_fragile": false,
+ "NC": {
+  "skipped": true,
+  "note": "no negative-control marbles in the packs"
+ },
+ "lag_profile_hits_per_1000_neighbours": [
+  22.2,
+  15.57,
+  12.66,
+  11.92,
+  13.04,
+  10.8,
+  11.4,
+  10.5,
+  9.76,
+  8.27,
+  9.76,
+  8.64,
+  8.19,
+  7.15
+ ],
+ "distinct_neighbours": 3275,
+ "top10_hub_share": 0.02853311480295016,
+ "examples": [
+  {
+   "marble": "nl:Olav_Mol",
+   "date": "2021-12-01",
+   "neighbours": [
+    "nl:Lijst_van_wereldkampioenen_Formule_1",
+    "fr:Max_Verstappen",
+    "nl:Max_Verstappen",
+    "de:Lewis_Hamilton",
+    "cs:Max_Verstappen"
+   ]
+  },
+  {
+   "marble": "de:Ted_Cruz",
+   "date": "2021-01-02",
+   "neighbours": [
+    "fr:Parti_r\u00e9publicain_(\u00c9tats-Unis)",
+    "de:Donald_Trump",
+    "nl:Kiescollege_(Verenigde_Staten)",
+    "de:Pr\u00e4sident_der_Vereinigten_Staaten",
+    "fr:Chambre_des_repr\u00e9sentants_des_\u00c9tats-Unis"
+   ]
+  },
+  {
+   "marble": "fr:Apple",
+   "date": "2022-09-03",
+   "neighbours": [
+    "fr:Ordinateur",
+    "fr:Jean-Jacques_Rousseau",
+    "fr:D\u00e9veloppement_durable",
+    "fr:Plan\u00e8te",
+    "fr:Volcan"
+   ]
+  },
+  {
+   "marble": "pl:Kampania_wrze\u015bniowa",
+   "date": "2022-08-31",
+   "neighbours": [
+    "pl:II_wojna_\u015bwiatowa",
+    "pl:Obrona_Wizny",
+    "pl:Pakt_Ribbentrop-Mo\u0142otow",
+    "pl:Sp\u00f3jnik_(cz\u0119\u015b\u0107_mowy)",
+    "pl:Czasownik"
+   ]
+  },
+  {
+   "marble": "pl:II_wojna_\u015bwiatowa",
+   "date": "2022-08-31",
+   "neighbours": [
+    "pl:Kampania_wrze\u015bniowa",
+    "pl:Obrona_Wizny",
+    "pl:Epika",
+    "pl:Sp\u00f3jnik_(cz\u0119\u015b\u0107_mowy)",
+    "nl:Cel_(biologie)"
+   ]
+  },
+  {
+   "marble": "cs:LGBT",
+   "date": "2021-08-02",
+   "neighbours": [
+    "cs:Queer",
+    "de:Ferragosto",
+    "pl:15_sierpnia",
+    "nl:Perse\u00efden",
+    "fr:Orange_Is_the_New_Black"
+   ]
+  },
+  {
+   "marble": "fr:\u00c9quipe_d'Alg\u00e9rie_de_football",
+   "date": "2020-10-05",
+   "neighbours": [
+    "fr:\u00c9quipe_du_Cameroun_de_football",
+    "fr:Coupe_du_monde_de_football_de_1994",
+    "fr:Coupe_du_monde_de_football_2002",
+    "fr:Statistiques_et_records_de_la_Coupe_du_monde_de_football",
+    "fr:Coupe_du_monde_de_football_de_1998"
+   ]
+  },
+  {
+   "marble": "pl:II_wojna_\u015bwiatowa",
+   "date": "2023-08-31",
+   "neighbours": [
+    "pl:Kampania_wrze\u015bniowa",
+    "pl:Obrona_Wizny",
+    "pl:Epika",
+    "pl:Sp\u00f3jnik_(cz\u0119\u015b\u0107_mowy)",
+    "nl:Cel_(biologie)"
+   ]
+  },
+  {
+   "marble": "fr:Hamas",
+   "date": "2022-08-05",
+   "neighbours": [
+    "de:Hamas",
+    "de:Pal\u00e4stinensische_Autonomiegebiete",
+    "cs:Palestina",
+    "cs:St\u00e1t_Palestina",
+    "fr:Sionisme"
+   ]
+  },
+  {
+   "marble": "pl:Bydgoszcz",
+   "date": "2023-04-27",
+   "neighbours": [
+    "pl:Toru\u0144",
+    "pl:Wojew\u00f3dztwo_kujawsko-pomorskie",
+    "pl:Praga",
+    "pl:S\u0142upsk",
+    "pl:Wojew\u00f3dztwo_ma\u0142opolskie"
+   ]
+  },
+  {
+   "marble": "nl:24_oktober",
+   "date": "2023-10-23",
+   "neighbours": [
+    "pl:Dzie\u0144_Zmar\u0142ych",
+    "pl:1_listopada",
+    "de:Halloween",
+    "cs:Du\u0161i\u010dky",
+    "cs:28._\u0159\u00edjen"
+   ]
+  },
+  {
+   "marble": "fr:Armie_Hammer",
+   "date": "2022-12-26",
+   "neighbours": [
+    "de:Armie_Hammer",
+    "de:Oscarverleihung_2018",
+    "fr:Guillermo_del_Toro",
+    "fr:Meryl_Streep",
+    "fr:Narcos"
+   ]
+  },
+  {
+   "marble": "pl:Joanna_Scheuring-Wielgus",
+   "date": "2023-10-06",
+   "neighbours": [
+    "pl:Nowoczesna",
+    "pl:Sejm_Rzeczypospolitej_Polskiej",
+    "pl:Jacek_Wilk",
+    "pl:Ma\u0142gorzata_Wassermann",
+    "pl:Kukiz\u201915"
+   ]
+  },
+  {
+   "marble": "pl:Romuald_Rajs",
+   "date": "2020-02-22",
+   "neighbours": [
+    "pl:Zygmunt_Szendzielarz",
+    "pl:8_marca",
+    "de:Oscarverleihung_2016",
+    "nl:Schrikkeljaar",
+    "cs:8._b\u0159ezen"
+   ]
+  },
+  {
+   "marble": "fr:Lucas_Ocampos",
+   "date": "2020-06-11",
+   "neighbours": [
+    "fr:Allan_Saint-Maximin",
+    "fr:Guido_Carrillo",
+    "fr:Mario_Pa\u0161ali\u0107",
+    "fr:Jo\u00e3o_Moutinho",
+    "fr:Elderson_Uwa_Echiejile"
+   ]
+  }
+ ]
+}

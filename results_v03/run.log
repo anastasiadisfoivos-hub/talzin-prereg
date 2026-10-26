@@ -1,0 +1,24 @@
+marbles 5000, days 3106 {np.str_('cs'): np.int64(1000), np.str_('de'): np.int64(1000), np.str_('fr'): np.int64(1000), np.str_('nl'): np.int64(1000), np.str_('pl'): np.int64(1000)}
+/usr/local/lib/python3.13/dist-packages/numpy/lib/_nanfunctions_impl.py:1215: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+raw jumps 161006, filtered 3381
+map: neighbours after null floor 47263, marbles with >=3 neighbours 4747
+link map: marbles with link data 5000, linked pairs 24956
+H1 (local fake dates) {"n": 1349, "did": 0.0327725351943142, "ci": [0.01601304666337076, 0.04921480366414174], "ci_month": [0.02324685876228347, 0.042468133722450944], "ci_twoway": [0.01601304666337076, 0.04921480366414174], "lift_adj": 1.2571109098660218, "lift_adj_ci": [1.1155863395177292, 1.385449185960045], "extra_neighbour_jumps_per_jump": 0.32758974296765175}
+H1 secondary (global fake dates) {"n": 1597, "did": 0.03269070727852821, "ci": [0.018897546086185303, 0.04676176780483432], "ci_month": [0.02436224617421279, 0.04022412279977036], "ci_twoway": [0.018897546086185303, 0.04676176780483432], "lift_adj": 1.2558055817778835, "lift_adj_ci": [1.150812467763719, 1.3714261482689964], "extra_neighbour_jumps_per_jump": 0.3259987476518473}
+before-window (mirror) {"n": 1349, "did": 0.02889029806478118, "ci": [0.014228165555874597, 0.04577254999665885], "ci_month": [0.01974400592384536, 0.037408939948331076], "ci_twoway": [0.014228165555874597, 0.04577254999665885], "lift_adj": 1.2330785473992352, "lift_adj_ci": [1.112229726087167, 1.3763309014470424], "extra_neighbour_jumps_per_jump": 0.2897069271337449}
+H2 {"what": "filtered jumps vs same-size jumps that failed only the edit-burst check", "n_filtered_common": 1349, "n_filtered_dropped": 0, "n_fail": 17891, "diff": 0.002443407814522902, "ci": [-0.01915458312769695, 0.024974270005245575], "pass": false}
+H3 {"nA": 137, "nB": 221, "share_diff": 0.000714358871705969, "ci": [-0.105558969895313, 0.10619112020670442], "perm_p": 0.47626186906546725, "pass": false}
+H4 map-only {"n": 1345, "did": 0.030300873854879635, "ci": [0.007090551074804306, 0.05290780418194316], "ci_month": [0.016998598567396456, 0.04351824550567968], "ci_twoway": [0.007090551074804306, 0.05290780418194316], "lift_adj": 1.2400142661225002, "lift_adj_ci": [1.091880090311259, 1.391045124765929], "extra_neighbour_jumps_per_jump": 0.24743010608651617}
+link map {"n": 1271, "did": 0.027788700768999624, "ci": [0.01071346670042295, 0.04522889278917532], "ci_month": [0.01724272621086538, 0.03907888978329467], "ci_twoway": [0.01071346670042295, 0.04522889278917532], "lift_adj": 1.1854779373607325, "lift_adj_ci": [1.0678441763639883, 1.304690093797497], "extra_neighbour_jumps_per_jump": 0.3083853834785185}
+H5 {"did_i_leads": 0.03149875863006682, "did_j_leads": 0.030397964171552543, "diff": 0.0011007944585142773, "ci": [-0.035158072399491, 0.03799462516627917], "nA": 1112, "nB": 1163, "pass": false}
+T1' swapped lists {"n": 1453, "did": 0.0016051447917376856, "ci": [-0.0022419317973188103, 0.005636908059816444], "ci_month": [-0.0011406904072032052, 0.004450469648227455], "ci_twoway": [-0.0022419317973188103, 0.005636908059816444], "lift_adj": NaN, "lift_adj_ci": [NaN, NaN], "extra_neighbour_jumps_per_jump": null}
+T3 time-broken map {"n": 1283, "did": 0.01604086556537337, "ci": [0.0020474978077654536, 0.02882955805036462], "ci_month": [0.00786317669879042, 0.023564722814255118], "ci_twoway": [0.0020474978077654536, 0.02882955805036462], "lift_adj": 1.1255181455940877, "lift_adj_ci": [1.0274880234667705, 1.227486792410337], "extra_neighbour_jumps_per_jump": 0.15905440779714758}
+/home/claude/talzin/filter/run_filter_v03.py:201: RuntimeWarning: Mean of empty slice
+  m = np.array([np.nanmean(NJ(np.full(len(rx), dn[q]), rx, before)) for q, rx in enumerate(rr2)])
+T4 neighbour timing shift {"n": 1352, "did": -0.008965379032352387, "ci": [-0.022398251504093157, 0.003957310935193832], "ci_month": [-0.016617292228599048, -0.0017199267981953415], "ci_twoway": [-0.022398251504093157, 0.003957310935193832], "lift_adj": 0.9367156937405954, "lift_adj_ci": [0.8462537593183709, 1.023438003033939], "extra_neighbour_jumps_per_jump": -0.09096092602969806}
+traps {"T1p": false, "T3": true, "T4": false}
+P1 {"planted": 437, "expected_rise": 0.03256998129125631, "observed_rise": 0.03259139546601938, "note": "a planted jump can count for several focal jumps that share the neighbour, so the rise may exceed the expected value", "pass_": true}
+S1 from 2020-05-01 {"n": 1244, "did": 0.030270091923701087, "ci": [0.013198231359381514, 0.048237022766562034], "ci_month": [0.020213631376177103, 0.0410076187467217], "ci_twoway": [0.013198231359381514, 0.048237022766562034], "lift_adj": 1.2339881174210476, "lift_adj_ci": [1.1054071371035945, 1.3901826183862085], "extra_neighbour_jumps_per_jump": 0.30465842919705055}
+DONE
+EXIT 0
