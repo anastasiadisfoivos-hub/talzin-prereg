@@ -110,3 +110,17 @@ no marble-specific repeat), which is the correct answer for them.
 - A2 (2026-10-25): idea for the NEXT version, recorded before results (Foivos, whiteboard): links are
   two-way with different strengths, so measure i->j and j->i as two separate arrows (each with its
   own DiD), not one net direction. Not part of this test.
+- A3 (2026-10-26, before any real series is analysed): correction to v0.1 amendment A4. Its premise was
+  wrong: the 404 replies for monthly top lists were temporary, not months without data (2015-12 for de
+  later returned data). As a result one month was left out of the universe for fr (2015-12), nl (2018-03)
+  and pl (2019-04). The samples are still random draws (seed 42) from the eligible articles, decided before
+  any analysis, so the tests are unaffected; the samples are kept as drawn rather than re-downloaded.
+  The cloud-built sample.json files are the canonical samples (the Mac built a slightly different pl
+  sample; its extra articles are not used).
+- A4 (2026-10-26, before any real series is analysed): some early human-edit files hold both a "user" and an
+  "anonymous" count (downloaded before anonymous edits were dropped). The packer now IGNORES the anonymous
+  count instead of refusing the file, so check 6 still uses registered-user edits only, as planned.
+  Also: the Dutch sample is the one built on the Mac (universe 16,294 / eligible 6,046, seed-42 draw,
+  verified to reproduce exactly from its saved universe.json), because all its articles were downloaded;
+  the cloud-built Dutch sample was not used.
+

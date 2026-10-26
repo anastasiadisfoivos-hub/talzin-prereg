@@ -27,7 +27,7 @@ for lang in ["de", "fr", "nl", "pl", "cs"]:
         titles.append(t)
         V.append([v.get(x, 0) for x in days])
         E.append([e.get(x, 0) for x in days] if e else None)
-        assert "anonymous" not in eu, "plan v0.3: human edits = registered users only"
+        # plan v0.3 + A4: human edits = registered users only; an "anonymous" key, if present, is ignored
         EH.append([eu.get("user", {}).get(x, 0) for x in days])
         L.append(links.get(t)); A.append(aliases.get(t))
     with gzip.open(os.path.join(OUT, f"pack_{lang}.json.gz"), "wt") as f:
